@@ -1,0 +1,213 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+/* Formal Page-Sheet Document Presentation - Pure Black & Arial 9.5pt (Visio A4 Landscape: 1122 x 794 px, 297 x 210 mm at 96 DPI) */
+.page-sheet {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 9.5pt !important;
+  line-height: 1.35;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.08), 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #9ca3af;
+  border-radius: 4px;
+  position: relative;
+  width: 1122px !important;
+  height: 794px !important;
+  min-width: 1122px !important;
+  min-height: 794px !important;
+  max-width: 1122px !important;
+  max-height: 794px !important;
+  padding: 18px 22px !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  box-sizing: border-box !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-sheet * {
+  color: #000000;
+  box-sizing: border-box;
+}
+
+.page-sheet p,
+.page-sheet li,
+.page-sheet td,
+.page-sheet th,
+.page-sheet div,
+.page-sheet span {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* Vertical budget strictly enforced (36px padding + 74px header + 16px margins + 586px body + 82px footer = 794px) */
+.page-sheet .header-table-container {
+  height: 74px !important;
+  min-height: 74px !important;
+  max-height: 74px !important;
+  flex-shrink: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.page-sheet .page-body {
+  height: 586px !important;
+  max-height: 586px !important;
+  flex: 0 0 586px !important;
+  margin: 8px 0 !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+  box-sizing: border-box !important;
+}
+
+.page-sheet .signatures-footer-container {
+  height: 82px !important;
+  min-height: 82px !important;
+  max-height: 82px !important;
+  flex-shrink: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Canguro Section Header: Oval number badge + Rounded-6px title bar */
+.canguro-section-header {
+  user-select: none;
+}
+
+.canguro-header-number-badge {
+  background-color: #fed700 !important;
+  border: 1.5px solid #000000 !important;
+  border-radius: 9999px !important;
+  color: #000000 !important;
+  font-weight: 900 !important;
+  box-sizing: border-box;
+}
+
+.canguro-header-title-bar {
+  background-color: #fed700 !important;
+  border: 1.5px solid #000000 !important;
+  border-radius: 6px !important;
+  color: #000000 !important;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+/* Fallback for legacy canguro-pill-banner: rounded-[6px] instead of continuous stadium pill */
+.canguro-pill-banner {
+  background-color: #fed700 !important;
+  border: 1.5px solid #000000;
+  border-radius: 6px !important;
+  color: #000000 !important;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+  box-sizing: border-box;
+}
+
+/* Atomic Cargo Block and Word-like Compact Spacing */
+.cargo-block {
+  margin-bottom: 6px;
+  padding: 2px 0;
+}
+.cargo-block:last-child {
+  margin-bottom: 0;
+}
+
+.line-spacing-1-0 {
+  line-height: 1.05 !important;
+}
+.line-spacing-1-0 p,
+.line-spacing-1-0 li,
+.line-spacing-1-0 ul,
+.line-spacing-1-0 div {
+  line-height: 1.05 !important;
+  margin-top: 1px !important;
+  margin-bottom: 1px !important;
+}
+
+.line-spacing-1-15 {
+  line-height: 1.15 !important;
+}
+.line-spacing-1-35 {
+  line-height: 1.35 !important;
+}
+
+/* In-place editing styles: Clean, unified outline on the editable block instead of excessive dashed boxes per line */
+.editing-active .editable-block {
+  outline: 1.5px dashed #f59e0b;
+  background-color: rgba(254, 215, 0, 0.03);
+  cursor: text;
+  border-radius: 4px;
+  padding: 3px 6px;
+  transition: all 0.15s ease-in-out;
+}
+
+.editing-active .editable-block:hover {
+  outline: 1.5px solid #000000;
+  background-color: rgba(254, 215, 0, 0.08);
+}
+
+.editing-active .editable-block:focus,
+.editing-active .editable-block:focus-within {
+  outline: 2px solid #000000 !important;
+  background-color: #ffffff !important;
+}
+
+@media print {
+  @page {
+    size: a4 landscape;
+    margin: 0;
+  }
+
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .page-sheet {
+    page-break-after: always !important;
+    break-after: page !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 18px 22px !important;
+    margin: 0 !important;
+    width: 297mm !important;
+    height: 210mm !important;
+    min-height: 210mm !important;
+    max-height: 210mm !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    color: #000000 !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  .page-sheet:last-child {
+    page-break-after: auto !important;
+    break-after: auto !important;
+  }
+}

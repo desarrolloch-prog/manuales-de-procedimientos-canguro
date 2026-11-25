@@ -1,0 +1,6 @@
+{
+  "summary":  "Plan de implementación para el auto-guardado inteligente tras 5 segundos de pausa en la edición, la integración del interruptor en el panel de Google Drive y los indicadores visuales discretos de 'Sincronizado' frente a 'Guardado localmente' en la barra superior y en la tarjeta de sincronización.",
+  "updatedAt":  "2026-11-12T13:38:18.896127449Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

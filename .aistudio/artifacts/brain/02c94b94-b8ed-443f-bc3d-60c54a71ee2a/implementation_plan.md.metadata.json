@@ -1,0 +1,6 @@
+{
+  "summary":  "Plan de implementación para incorporar una pestaña principal dedicada a la Base de Datos de Manuales con gestión de estados (Borrador, En Pruebas, Aprobado), guardado automático continuo, creación de manual en blanco y eliminación segura.",
+  "updatedAt":  "2026-10-28T15:42:28.796994649Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

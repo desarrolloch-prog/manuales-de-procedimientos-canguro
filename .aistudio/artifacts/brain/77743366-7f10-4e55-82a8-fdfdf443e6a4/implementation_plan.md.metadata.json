@@ -1,0 +1,6 @@
+{
+  "summary":  "Plan de auditoría e implementación técnica para corregir el motor de análisis multimodal y la paginación dinámica:\n1. Reconfiguración del backend y prompt de Gemini para eliminar límites artificiales de cargos (extracción obligatoria del 100% de descriptores adjuntos), erradicar fallbacks silenciosos que generaban glosarios y criterios predeterminados, y ampliar la capacidad de recepción de archivos pesados (hasta 100MB).\n2. Refactorización del motor de paginación canónico (src/utils/paginate.ts) para distribuir exactamente un máximo de 3 cargos por página en la Sección 3 (Estructura Organizacional), generando páginas adicionales dinámicas según la cantidad de cargos (ej. 9 cargos divididos en 3 páginas: 3+3+3), manteniendo Portada en Pág 1, Herramientas en Pág 2, Glosario en Pág 3, Normas 1 y 2 en Pág 4, y Criterios Técnicos en páginas subsiguientes con pie de firmas en todas las páginas.\n3. Transparencia de análisis en la UI y sincronización completa de conteo total de páginas.",
+  "updatedAt":  "2026-11-10T14:36:52.250755589Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

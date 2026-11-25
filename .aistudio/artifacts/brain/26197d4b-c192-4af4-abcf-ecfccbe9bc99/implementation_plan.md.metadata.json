@@ -1,0 +1,6 @@
+{
+  "summary": "Plan integral de arquitectura para la estandarización determinista de manuales DTH-GFD-MP:\n1. Reemplazo del prompt de Gemini por salida JSON estructurada (responseMimeType: application/json) sin paginación en el LLM.\n2. Módulo único de paginación real por medición de altura física en DOM (src/utils/paginate.ts) con bloques atómicos y ajuste de espaciado Word-like (1.0).\n3. Hojas fijas A4 apaisadas (1120x792 px) con Arial 9.5pt, line-height 1.35 y eliminación de código duplicado.\n4. Exportación idéntica en PDF y DOCX compartiendo el array de páginas paginadas.",
+  "updatedAt": "2026-11-05T16:13:11.491219790Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

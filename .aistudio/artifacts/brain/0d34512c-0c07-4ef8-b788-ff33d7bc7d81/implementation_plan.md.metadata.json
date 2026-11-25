@@ -1,0 +1,6 @@
+{
+  "summary": "Plan de implementación para aplicar las correcciones solicitadas: 1) Estandarizar negritas intermedias en Gerencia y Dirección tanto en Sección 1 como en Sección 3 (agregando el artículo 'la' faltante), 2) Retirar la etiqueta '[X registrados]' del título en la base de datos, 3) Retirar la tarjeta métrica de 'BORRADORES' dejando Total Manuales y Aprobados, 4) Retirar los botones secundarios 'Descargar' y 'Subir' de la sincronización de Google Drive dejando el botón unificado 'Sincronizar (Subir y Descargar)'.",
+  "updatedAt": "2026-11-05T12:58:15.565918565Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

@@ -1,0 +1,6 @@
+{
+  "summary": "Plan de implementación para la sincronización bidireccional multiusuario con Google Drive. Permite que cualquier usuario con cuenta de Google autenticada descargue y suba manuales a la base de datos corporativa compartida, implementando un motor de fusión inteligente que preserva las versiones más recientes sin pérdida de datos.",
+  "updatedAt": "2026-11-04T15:44:11.919645288Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

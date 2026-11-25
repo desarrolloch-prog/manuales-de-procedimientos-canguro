@@ -1,0 +1,6 @@
+{
+  "summary":  "Plan de implementación arquitectónica para corregir el aislamiento de estado entre manuales en la base de datos, eliminar la visualización de asteriscos dobles (**) al salir de edición convirtiéndolos en negritas reales, y actualizar el estándar de gobernanza documental en Sección 10 a 'Del Gerente de [Proceso en Title Case]'.",
+  "updatedAt":  "2026-11-12T14:54:42.647373918Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

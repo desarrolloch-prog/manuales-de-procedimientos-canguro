@@ -1,0 +1,6 @@
+{
+  "summary":  "Plan de implementación para corregir las 3 observaciones detectadas en el PDF:\n1) Consolidar el Glosario de Términos en una (1) sola página sin saltos erróneos, dando cabida analítica completa de hasta 10 términos de alta calidad en la Página 3.\n2) Limpiar el listado de Herramientas Tecnológicas para mostrar exclusivamente los nombres formales del software sin módulos ni textos entre paréntesis.\n3) Optimizar el presupuesto vertical en Normas y Criterios Técnicos para aprovechar todo el alto útil de la página (586px), integrando los 4 cargos en la Página 5 y los 5 criterios técnicos (4.1 a 4.5) en la misma hoja de Criterios sin saltos prematuros, reservando el salto únicamente para 6 o más criterios analizados.",
+  "updatedAt":  "2026-11-10T12:29:27.136543586Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

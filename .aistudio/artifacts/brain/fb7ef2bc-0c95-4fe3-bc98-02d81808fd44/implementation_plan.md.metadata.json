@@ -1,0 +1,6 @@
+{
+  "summary":  "Plan detallado de implementación para corregir y optimizar la interacción del usuario:\n- Desacoplar la carga del caso de ejemplo para que solo llene los parámetros y no renderice un manual anticipado sin hacer clic en 'Generar'.\n- Eliminar textos y etiquetas innecesarias en encabezados y campos (código DTH-GFD-MP redundante, 'Metadatos oficiales y notas', 'Cargo...' bajo Director Aprobador, '(Cargo Responsable)' en Dueño del Proceso, 'Haz clic en cualquier palabra para editarla' y el botón inoperativo '100%' de accesibilidad).\n- Simplificar el control de Edición a un botón compacto y funcional con icono + 'Edición' y activación directa.\n- Reemplazar los dos contadores de segundos por una barra de progreso unificada con porcentaje (0% a 100%) y fases visuales de análisis.\n- Eliminar el guardado automático para dar control total al usuario con un botón destacado 'Guardar Manual' con indicador de cambios pendientes y última hora de guardado.\n- Sintetizar la sección 2 de Errores Lean a un resumen ejecutivo ágil y potenciar el análisis de casos en el backend.",
+  "updatedAt":  "2026-10-28T19:04:05.596516310Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
