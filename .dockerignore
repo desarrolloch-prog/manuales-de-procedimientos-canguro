@@ -1,0 +1,12 @@
+node_modules
+dist
+bin
+.git
+.env
+.env.*
+.agents
+.aistudio
+.antigravity
+.vscode
+*.log
+*.zip

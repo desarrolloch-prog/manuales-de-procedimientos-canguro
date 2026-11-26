@@ -1,10 +1,10 @@
-FROM oven/bun:1.2-slim
+FROM oven/bun:1-slim
 
 WORKDIR /app
 
 # Instalar dependencias
 COPY package.json bun.lock* ./
-RUN bun install --frozen-lockfile
+RUN bun install
 
 # Copiar código fuente
 COPY . .
